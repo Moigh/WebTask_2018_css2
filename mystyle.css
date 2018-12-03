@@ -1,201 +1,198 @@
-        
-		@media print { 
-		
-		ul {
-		 list-style-type: disc !important;
-		}
-		ol {
-		 list-style-type: decimal !important;	
-		}
-		 img{ 
-		  display: none; 
-		 } 
-		 header *{
-		  display: none; 
-		 }
-         *{
-	     background:#fff !important;
-		 color:#000 !important;
-		 width:auto !important;
-		 margin: 0px !important;
-		 padding: 0px !important;
-		 height:auto !important;
-		}
-		}  		
-        @font-face{
-		 font-family:helvetica;
-		 src: url(sherif/helvetica.ttf);
-		}
-
-		@font-face{
-		 font-family:helveticab;
-		 src: url(sherif/helveticab.ttf);
-		}
-		body{
-		 background:black;
-		 margin:0;
-		 font-family:helvetica;
-		}
-		header{
-		 color: black;
-		 display:block;
-		 margin-top: 0px;
-		 margin-left:20%;
-		 margin-right:15%;
-		 width:60%;
-		 font-family: helvetica;
-		}
-		.dws-menu *{
-		 margin: 0;
-		 padding: 0;
-		}
-		.dws-menu ul{
-		 display: flex;
-		 list-style: none;
-		}
-		.dws-menu ul li{
-		 position: relative;
-		 border-left: 2px solid #fff;
-		}
-		.dws-menu ul li a{
-		 display: block;
-		 background: #000;
-		 padding: 16px 30px 16px 30px;
-		 box-sizing: border-box;	
-		 font-size: 17px;
-		 color: #fff;
-		 text-decoration: none;
-		 transition: 0.4s;
-		}
-		.dws-menu li a:hover{
-		 background: #ccc; 
-		 color: #000;
-		 transition: 0.4s;
-		}
-		.dws-menu li ul{
-		 position: absolute;
-		 min-width: 150px;
-		 display: none;
-		}
-		.dws-menu li ul li a{
-		 padding: 10px;
-		 text-transform: none;
-		 background: #666;
-		}
-		.dws-menu li ul li ul{
-		 position: absolute;
-		 right: -150px;
-		 top: 0;
-		}
-		.dws-menu li:hover > ul{
-		 display: block;
-		}
-		p.menu{
-		 display: flex;
-		 float: left;
-		 background: #000;
-		 width:55%;
-		 font-family:helveticab;
-		 font-size: 39px;
-		 padding-left: 20px;
-		 color: #fff;
-		 text-decoration: none;
-		 transition: 0.4s;
-		}
-		.side img{
-		 width:100%;
-		}
-		.side {
-		 padding: 1%;
-		 background-color:#ccc;  
-		 width:15%;
-		 height:100%;
-		 box-sizing: border-box;
-		 float:left;
-		}
-		.mid{
-		 padding: 3%;
-		 background-color:#fff;  
-		 width:70%;
-		 height:100%;
-		 box-sizing: border-box;
-		 float:left;
-		}
-		.main{
-		 margin-top: 1%;
-		 background-color:#ccc;  
-		 margin-left:20%;
-		 margin-right:20%;
-		 width:60%;		
-		 height:; 
-		}
-		footer{
-		 padding-left:40%;
-		}
-		h3{
-		 text-align: center;
-		}
-		p.name{
-		 font-style: italic;
-		 text-align: right;
-		 color:#EF4F00;
-		}
-		.aname{
-		 color:#C94300;
-		}
-		.art{
-		 text-align:left;	
-		}
-		.artist{
-		 margin: 0px 20px 0px 0px;
-		 float:left;
-		 width:30%;
-		}
-		.winx{
-		 color: #ff4dc4;	
-		}
-		.ladybug{
-		 color:red;
-		}
-		.barbie{
-		 color:#ff66b3;
-		}
-		.sim{
-		 color:#cccc00;
-		}
-		.sc {
-         font-variant: small-caps;
-        }
-		.b {
-         font-weight: bold;
-		}
-		.o {
-         font-style: oblique;
-		}
-		.ov {
-		 text-decoration: overline;
-		}
-		.un {
-		 text-decoration: underline;
-		}
-		.up {
-		 text-transform: uppercase;
-		}
-		.l {
-         text-transform: lowercase;
-        }
-		.i {
-		 font-style: italic;
-		}
-		.c {
-		 text-transform: capitalize;
-		}
-		ul.h {
-		 list-style-type: hiragana;	
-		}
-		ul.ar{
-		 list-style-type:armenian;
-		}
-		ul.cjk {
-		 list-style-type:cjk-ideographic;
-		}
+@media print { 		
+	ul {	 
+		list-style-type: disc !important;
+	}
+	ol {
+		list-style-type: decimal !important;	
+	}
+	img{ 
+		display: none; 
+	} 
+	header *{
+		display: none; 
+	}
+        *{
+		background:#fff !important;
+		color:#000 !important;
+		width:auto !important;
+		margin: 0px !important;
+		padding: 0px !important;
+		height:auto !important;
+	}
+}  		
+font-face{
+	font-family:helvetica;
+	src: url(helvetica.ttf);
+}
+@font-face{
+	font-family:helveticab;
+	src: url(helveticab.ttf);
+}
+body{
+	background:black;
+	margin:0;
+	font-family:helvetica;
+}
+header{
+	color: black;
+	display:block;
+	margin-top: 0px;
+	margin-left:20%;
+	margin-right:15%;
+	width:60%;
+	font-family: helvetica;
+}
+.dws-menu *{
+	margin: 0;
+	padding: 0;
+}
+.dws-menu ul{
+	display: flex;
+	list-style: none;
+}
+.dws-menu ul li{
+	position: relative;
+	border-left: 2px solid #fff;
+}
+.dws-menu ul li a{
+	display: block;
+	background: #000;
+	padding: 16px 30px 16px 30px;
+	box-sizing: border-box;	
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.dws-menu li a:hover{
+	background: #ccc; 
+	color: #000;
+	transition: 0.4s;
+}
+.dws-menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+.dws-menu li ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #666;
+}
+.dws-menu li ul li ul{
+	position: absolute;
+	right: -150px;
+	top: 0;
+}
+.dws-menu li:hover > ul{
+	display: block;
+}
+p.menu{
+	display: flex;
+	float: left;
+	background: #000;
+	width:55%;
+	font-family:helveticab;
+	font-size: 39px;
+	padding-left: 20px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.side img{
+	width:100%;
+}
+.side {
+	padding: 1%;
+	background-color:#ccc;  
+	width:15%;
+	height:100%;
+	box-sizing: border-box;
+	float:left;
+}
+.mid{
+	padding: 3%;
+	background-color:#fff;  
+	width:70%;
+	height:100%;
+	box-sizing: border-box;
+	float:left;
+}
+.main{
+	margin-top: 1%;
+	background-color:#ccc;  
+	margin-left:20%;
+	margin-right:20%;
+	width:60%;		
+	height:; 
+}
+footer{
+	padding-left:40%;
+}
+h3{
+	text-align: center;
+}
+p.name{
+	font-style: italic;
+	text-align: right;
+	color:#EF4F00;
+}
+.aname{
+	color:#C94300;
+}
+.art{
+	text-align:left;	
+}
+.artist{
+	margin: 0px 20px 0px 0px;
+	float:left;
+	width:30%;
+}
+.winx{
+	color: #ff4dc4;	
+}
+.ladybug{
+	color:red;
+}
+.barbie{
+	color:#ff66b3;
+}
+.sim{
+	color:#cccc00;
+}
+.sc {
+        font-variant: small-caps;
+}
+.b {
+        font-weight: bold;
+}
+.o {
+        font-style: oblique;
+}
+.ov {
+	text-decoration: overline;
+}
+.un {
+	text-decoration: underline;
+}
+.up {
+	text-transform: uppercase;
+}
+.l {
+        text-transform: lowercase;
+}
+.i {
+	font-style: italic;
+}
+.c {
+	text-transform: capitalize;
+}
+ul.h {
+	list-style-type: hiragana;	
+}
+ul.ar{
+	list-style-type:armenian;
+}
+ul.cjk {
+	list-style-type:cjk-ideographic;
+}
